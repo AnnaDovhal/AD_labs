@@ -118,6 +118,7 @@ def reset():
     noise_covariance_slider.value = initial_noise_covariance
     show_noise_checkbox.active = show_noise
     coef_slider.value = initial_coef
+    filter_select.value = initial_filter
 
 reset_button.on_click(reset)
 
